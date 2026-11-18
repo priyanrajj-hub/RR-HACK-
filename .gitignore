@@ -4,6 +4,24 @@ dashboard/node_modules/
 .pnp
 .pnp.js
 
+# Environment Variables & Secrets (HIDDEN)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+dashboard/.env
+dashboard/.env.*
+dashboard/.env.local
+dashboard/.env.development.local
+dashboard/.env.test.local
+dashboard/.env.production.local
+
+# Vercel Project State
+.vercel
+dashboard/.vercel
+
 # Production build artifacts
 .next/
 dashboard/.next/
