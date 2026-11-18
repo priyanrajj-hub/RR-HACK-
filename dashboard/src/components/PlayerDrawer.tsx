@@ -110,29 +110,46 @@ export default function PlayerDrawer({
       {/* Drawer Container */}
       <div className="w-full max-w-xl h-full bg-rr-dark border-l border-rr-border shadow-2xl flex flex-col overflow-y-auto animate-in slide-in-from-right duration-300">
         {/* Header */}
-        <div className="sticky top-0 z-20 bg-rr-navy/95 backdrop-blur-md p-6 border-b border-rr-border flex items-start justify-between">
-          <div>
-            <div className="flex items-center gap-2 mb-1.5">
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-rr-pink/20 text-rr-pink border border-rr-pink/40">
-                Rank #{player.rank} • {isBowler ? "Bowler" : "Batter"}
-              </span>
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold tracking-wider bg-slate-800 text-slate-300 border border-slate-700">
-                {player.total_matches} Matches Analyzed
+        <div className="sticky top-0 z-20 bg-rr-navy/95 backdrop-blur-md p-6 border-b border-rr-border flex items-start justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <div className="relative">
+              <img
+                src={player.image_url || "/players/tim_david.png"}
+                alt={player.player_name}
+                className={`w-16 h-16 rounded-full object-cover border-2 shadow-xl ${
+                  isBowler ? "border-blue-500 shadow-blue-500/30" : "border-rr-pink shadow-rr-pink/30"
+                }`}
+              />
+              <span className={`absolute -bottom-1 -right-1 px-1.5 py-0.5 rounded-full text-[9px] font-black text-white ${
+                isBowler ? "bg-blue-600" : "bg-rr-pink"
+              }`}>
+                #{player.rank}
               </span>
             </div>
-            <h2 className="text-2xl font-black text-white">{player.player_name}</h2>
-            <div className="flex items-center gap-3 mt-2">
-              <div className="flex items-baseline gap-1">
-                <span className="text-xs text-slate-400">Pressure Score:</span>
-                <span className="text-xl font-black text-rr-pink">
-                  {player.reliability_score.toFixed(2)}
+
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-wider bg-rr-pink/20 text-rr-pink border border-rr-pink/40">
+                  {isBowler ? "Bowler" : "Batter"}
+                </span>
+                <span className="px-2 py-0.5 rounded-full text-[9px] font-semibold tracking-wider bg-slate-800 text-slate-300 border border-slate-700">
+                  {player.total_matches} Matches Analyzed
                 </span>
               </div>
-              <div className="text-xs text-slate-400 border-l border-slate-700 pl-3">
-                90% CI:{" "}
-                <span className="font-mono text-slate-200">
-                  {player.ci_90[0].toFixed(1)} – {player.ci_90[1].toFixed(1)}
-                </span>
+              <h2 className="text-xl font-black text-white">{player.player_name}</h2>
+              <div className="flex items-center gap-3 mt-1.5">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-[11px] text-slate-400">Score:</span>
+                  <span className="text-lg font-black text-rr-pink">
+                    {player.reliability_score.toFixed(2)}
+                  </span>
+                </div>
+                <div className="text-[11px] text-slate-400 border-l border-slate-700 pl-3">
+                  90% CI:{" "}
+                  <span className="font-mono text-slate-200">
+                    {player.ci_90[0].toFixed(1)} – {player.ci_90[1].toFixed(1)}
+                  </span>
+                </div>
               </div>
             </div>
           </div>

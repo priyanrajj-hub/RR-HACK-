@@ -281,14 +281,23 @@ export default function DashboardPage() {
               <div
                 key={p.player_id}
                 onClick={() => setSelectedPlayer(p)}
-                className="cursor-pointer p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-rr-pink transition-all group"
+                className="cursor-pointer p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-rr-pink transition-all group flex items-center gap-2.5"
               >
-                <div className="flex justify-between items-center text-[10px] text-slate-400 mb-1">
-                  <span className="font-black text-rr-gold">Rank #{p.rank}</span>
-                  <span className="font-mono text-white font-bold">{p.reliability_score.toFixed(1)}</span>
-                </div>
-                <div className="text-xs font-bold text-slate-100 truncate group-hover:text-rr-pink transition-colors">
-                  {p.player_name}
+                <img
+                  src={p.image_url || "/players/tim_david.png"}
+                  alt={p.player_name}
+                  className={`w-9 h-9 rounded-full object-cover border-2 shrink-0 ${
+                    isBowler ? "border-blue-500" : "border-rr-pink"
+                  }`}
+                />
+                <div className="min-w-0 flex-1">
+                  <div className="flex justify-between items-center text-[10px] text-slate-400">
+                    <span className="font-black text-rr-gold">Rank #{p.rank}</span>
+                    <span className="font-mono text-white font-bold">{p.reliability_score.toFixed(1)}</span>
+                  </div>
+                  <div className="text-xs font-bold text-slate-100 truncate group-hover:text-rr-pink transition-colors">
+                    {p.player_name}
+                  </div>
                 </div>
               </div>
             ))}
@@ -358,13 +367,24 @@ export default function DashboardPage() {
                       className="hover:bg-slate-800/40 cursor-pointer transition-colors"
                     >
                       <td className="p-3 font-bold text-rr-gold">#{p.rank}</td>
-                      <td className="p-3 font-bold text-white flex items-center gap-2">
-                        {p.player_name}
-                        {p.rank <= 3 && (
-                          <span className="text-[10px] px-1.5 py-0.2 rounded bg-rr-pink/20 text-rr-pink font-extrabold">
-                            TOP 3
-                          </span>
-                        )}
+                      <td className="p-3 font-bold text-white">
+                        <div className="flex items-center gap-2.5">
+                          <img
+                            src={p.image_url || "/players/tim_david.png"}
+                            alt={p.player_name}
+                            className={`w-7 h-7 rounded-full object-cover border shrink-0 ${
+                              isBowler ? "border-blue-500" : "border-rr-pink"
+                            }`}
+                          />
+                          <div className="flex items-center gap-1.5">
+                            <span>{p.player_name}</span>
+                            {p.rank <= 3 && (
+                              <span className="text-[10px] px-1.5 py-0.2 rounded bg-rr-pink/20 text-rr-pink font-extrabold">
+                                TOP 3
+                              </span>
+                            )}
+                          </div>
+                        </div>
                       </td>
                       <td className="p-3 font-black text-rr-pink">{p.reliability_score.toFixed(2)}</td>
                       <td className="p-3 font-mono text-slate-400">

@@ -113,7 +113,16 @@ export default function BattersPage() {
                   className="hover:bg-slate-800/40 cursor-pointer transition-colors"
                 >
                   <td className="p-3 font-black text-rr-gold">#{b.rank}</td>
-                  <td className="p-3 font-bold text-white">{b.player_name}</td>
+                  <td className="p-3 font-bold text-white">
+                    <div className="flex items-center gap-2.5">
+                      <img
+                        src={b.image_url || "/players/tim_david.png"}
+                        alt={b.player_name}
+                        className="w-7 h-7 rounded-full object-cover border border-rr-pink shrink-0 shadow-sm shadow-rr-pink/20"
+                      />
+                      <span>{b.player_name}</span>
+                    </div>
+                  </td>
                   <td className="p-3 font-black text-rr-pink">{b.reliability_score.toFixed(2)}</td>
                   <td className="p-3 font-mono text-slate-400">{b.ci_90[0].toFixed(1)}–{b.ci_90[1].toFixed(1)}</td>
                   <td className="p-3 font-bold">{b.hp_sr.toFixed(1)}</td>

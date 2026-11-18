@@ -2,6 +2,7 @@ export interface Batter {
   rank: number;
   player_id: number;
   player_name: string;
+  image_url?: string;
   team?: string;
   reliability_score: number;
   ci_90: [number, number];
@@ -27,6 +28,7 @@ export interface Bowler {
   rank: number;
   player_id: number;
   player_name: string;
+  image_url?: string;
   team?: string;
   reliability_score: number;
   ci_90: [number, number];

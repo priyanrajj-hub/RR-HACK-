@@ -40,7 +40,8 @@
       "rr_squad_fit": "Designated death-over power finisher (overs 16-20); fills overseas power-hitting vacancy; elite vs wide yorkers.",
       "hp_runs": 746,
       "sr_delta": 22.6,
-      "consistency_win_rate": 74.0
+      "consistency_win_rate": 74.0,
+      "image_url": "/players/tim_david.png"
     },
     {
       "rank": 2,
@@ -67,7 +68,8 @@
       "rr_squad_fit": "Premier chase anchor and collapse neutralizer; most durable high-volume mental resilience in world cricket.",
       "hp_runs": 823,
       "sr_delta": 11.8,
-      "consistency_win_rate": 73.0
+      "consistency_win_rate": 73.0,
+      "image_url": "/players/virat_kohli.png"
     },
     {
       "rank": 3,
@@ -94,7 +96,8 @@
       "rr_squad_fit": "Already retained by RR; precocious power prodigy; extraordinary 228 strike rate under pressure; long-term franchise pillar.",
       "hp_runs": 467,
       "sr_delta": 63.5,
-      "consistency_win_rate": 66.0
+      "consistency_win_rate": 66.0,
+      "image_url": "/players/vaibhav_sooryavanshi.png"
     },
     {
       "rank": 4,
@@ -121,7 +124,8 @@
       "rr_squad_fit": "Defensive anchor and controlled chase builder; international sample durability; high floor in collapse situations.",
       "hp_runs": 460,
       "sr_delta": -2.5,
-      "consistency_win_rate": 68.0
+      "consistency_win_rate": 68.0,
+      "image_url": "/players/mohammad_rizwan.png"
     },
     {
       "rank": 5,
@@ -148,7 +152,8 @@
       "rr_squad_fit": "Already retained by RR; clutch lower-order finisher, crisis stabilizer, and accurate restrictive left-arm finger spinner.",
       "hp_runs": 356,
       "sr_delta": 5.2,
-      "consistency_win_rate": 72.0
+      "consistency_win_rate": 72.0,
+      "image_url": "/players/ravindra_jadeja.png"
     },
     {
       "rank": 6,
@@ -175,7 +180,8 @@
       "rr_squad_fit": "Elite dual-threat match winner; game-breaking death boundary striker and heavy-ball pressure death bowler.",
       "hp_runs": 369,
       "sr_delta": -6.2,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/andre_russell.png"
     },
     {
       "rank": 7,
@@ -202,7 +208,8 @@
       "rr_squad_fit": "Top-order anchor after early wickets; technically disciplined against high-velocity pace; tournament consistency.",
       "hp_runs": 825,
       "sr_delta": 16.2,
-      "consistency_win_rate": 76.0
+      "consistency_win_rate": 76.0,
+      "image_url": "/players/pathum_nissanka.png"
     },
     {
       "rank": 8,
@@ -229,7 +236,8 @@
       "rr_squad_fit": "Cost-effective domestic Indian finisher; explosive boundary generation in overs 18-20; high upside under budget constraints.",
       "hp_runs": 228,
       "sr_delta": 25.0,
-      "consistency_win_rate": 68.0
+      "consistency_win_rate": 68.0,
+      "image_url": "/players/ashutosh_sharma.png"
     },
     {
       "rank": 9,
@@ -256,7 +264,8 @@
       "rr_squad_fit": "World-class 360-degree manipulator; controls middle-over rebuilds and dismantles opposition death field placements.",
       "hp_runs": 920,
       "sr_delta": -13.4,
-      "consistency_win_rate": 72.0
+      "consistency_win_rate": 72.0,
+      "image_url": "/players/suryakumar_yadav.png"
     },
     {
       "rank": 10,
@@ -283,7 +292,8 @@
       "rr_squad_fit": "Middle-order crisis stabilizer; reverses heavy negative baseline (-22.9) to clutch pressure value (+41.7); excellent domestic bat-for-hire.",
       "hp_runs": 259,
       "sr_delta": 2.8,
-      "consistency_win_rate": 68.0
+      "consistency_win_rate": 68.0,
+      "image_url": "/players/ayush_badoni.png"
     }
   ],
   "top_bowlers": [
@@ -312,7 +322,8 @@
       "hp_runs": 166,
       "hp_sr": 9.4,
       "econ_delta": 2.51,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/umran_malik.png"
     },
     {
       "rank": 2,
@@ -339,7 +350,8 @@
       "hp_runs": 261,
       "hp_sr": 12.2,
       "econ_delta": 2.66,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/lockie_ferguson.png"
     },
     {
       "rank": 3,
@@ -366,7 +378,8 @@
       "hp_runs": 94,
       "hp_sr": 9.9,
       "econ_delta": 2.43,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/sufiyan_muqeem.png"
     },
     {
       "rank": 4,
@@ -393,7 +406,8 @@
       "hp_runs": 318,
       "hp_sr": 8.4,
       "econ_delta": -0.49,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/andre_russell_bowl.png"
     },
     {
       "rank": 5,
@@ -420,7 +434,8 @@
       "hp_runs": 221,
       "hp_sr": 14.7,
       "econ_delta": 2.45,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/patrick_cummins.png"
     },
     {
       "rank": 6,
@@ -447,7 +462,8 @@
       "hp_runs": 605,
       "hp_sr": 13.2,
       "econ_delta": 0.44,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/josh_hazlewood.png"
     },
     {
       "rank": 7,
@@ -474,7 +490,8 @@
       "hp_runs": 325,
       "hp_sr": 11.5,
       "econ_delta": 0.17,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/mitchell_starc.png"
     },
     {
       "rank": 8,
@@ -501,7 +518,8 @@
       "hp_runs": 121,
       "hp_sr": 11.2,
       "econ_delta": 1.3,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/salman_mirza.png"
     },
     {
       "rank": 9,
@@ -528,7 +546,8 @@
       "hp_runs": 249,
       "hp_sr": 11.8,
       "econ_delta": 1.05,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/jacob_duffy.png"
     },
     {
       "rank": 10,
@@ -555,7 +574,8 @@
       "hp_runs": 335,
       "hp_sr": 16.9,
       "econ_delta": 1.19,
-      "consistency_win_rate": 70.0
+      "consistency_win_rate": 70.0,
+      "image_url": "/players/krunal_pandya.png"
     }
   ],
   "overall_scouting_batters": [
@@ -565,7 +585,8 @@
       "score": 89.2,
       "role": "Finisher",
       "age": 28,
-      "category": "Prime"
+      "category": "Prime",
+      "image_url": "/players/tim_david.png"
     },
     {
       "rank": 2,
@@ -573,7 +594,8 @@
       "score": 88.0,
       "role": "Top Order",
       "age": 15,
-      "category": "Young Prospect (RR Retained)"
+      "category": "Young Prospect (RR Retained)",
+      "image_url": "/players/vaibhav_sooryavanshi.png"
     },
     {
       "rank": 3,
@@ -581,7 +603,8 @@
       "score": 87.4,
       "role": "Anchor",
       "age": 36,
-      "category": "Experienced Benchmark"
+      "category": "Experienced Benchmark",
+      "image_url": "/players/virat_kohli.png"
     },
     {
       "rank": 4,
@@ -589,7 +612,8 @@
       "score": 86.1,
       "role": "Middle Order",
       "age": 34,
-      "category": "Prime 360"
+      "category": "Prime 360",
+      "image_url": "/players/suryakumar_yadav.png"
     },
     {
       "rank": 5,
@@ -597,7 +621,8 @@
       "score": 84.7,
       "role": "All-Rounder",
       "age": 36,
-      "category": "Experienced Power"
+      "category": "Experienced Power",
+      "image_url": "/players/andre_russell.png"
     },
     {
       "rank": 6,
@@ -605,7 +630,8 @@
       "score": 83.5,
       "role": "Finisher",
       "age": 26,
-      "category": "Early-Career Indian"
+      "category": "Early-Career Indian",
+      "image_url": "/players/ashutosh_sharma.png"
     },
     {
       "rank": 7,
@@ -613,7 +639,8 @@
       "score": 83.2,
       "role": "All-Rounder",
       "age": 36,
-      "category": "Experienced (RR Retained)"
+      "category": "Experienced (RR Retained)",
+      "image_url": "/players/ravindra_jadeja.png"
     },
     {
       "rank": 8,
@@ -621,7 +648,8 @@
       "score": 82.0,
       "role": "Opener",
       "age": 26,
-      "category": "Prime Anchor"
+      "category": "Prime Anchor",
+      "image_url": "/players/pathum_nissanka.png"
     },
     {
       "rank": 9,
@@ -629,7 +657,8 @@
       "score": 81.3,
       "role": "Top Order / WK",
       "age": 32,
-      "category": "Prime Anchor"
+      "category": "Prime Anchor",
+      "image_url": "/players/mohammad_rizwan.png"
     },
     {
       "rank": 10,
@@ -637,7 +666,8 @@
       "score": 80.5,
       "role": "Middle Order",
       "age": 25,
-      "category": "Early-Career Domestic"
+      "category": "Early-Career Domestic",
+      "image_url": "/players/ayush_badoni.png"
     }
   ],
   "overall_scouting_bowlers": [
@@ -647,7 +677,8 @@
       "score": 88.1,
       "role": "Express Pace",
       "age": 25,
-      "category": "Early-Career Indian High-Ceiling"
+      "category": "Early-Career Indian High-Ceiling",
+      "image_url": "/players/umran_malik.png"
     },
     {
       "rank": 2,
@@ -655,7 +686,8 @@
       "score": 86.5,
       "role": "Fast Bowler",
       "age": 33,
-      "category": "Prime Overseas Death Pacer"
+      "category": "Prime Overseas Death Pacer",
+      "image_url": "/players/lockie_ferguson.png"
     },
     {
       "rank": 3,
@@ -663,7 +695,8 @@
       "score": 85.9,
       "role": "Fast Seam",
       "age": 33,
-      "category": "Prime Control"
+      "category": "Prime Control",
+      "image_url": "/players/josh_hazlewood.png"
     },
     {
       "rank": 4,
@@ -671,7 +704,8 @@
       "score": 85.2,
       "role": "Fast Bowler",
       "age": 31,
-      "category": "Prime Leader"
+      "category": "Prime Leader",
+      "image_url": "/players/patrick_cummins.png"
     },
     {
       "rank": 5,
@@ -679,7 +713,8 @@
       "score": 84.0,
       "role": "Wrist Spin",
       "age": 25,
-      "category": "Early-Career Mystery"
+      "category": "Early-Career Mystery",
+      "image_url": "/players/sufiyan_muqeem.png"
     },
     {
       "rank": 6,
@@ -687,7 +722,8 @@
       "score": 83.4,
       "role": "Left-Arm Fast",
       "age": 34,
-      "category": "Experienced Strike Yorker"
+      "category": "Experienced Strike Yorker",
+      "image_url": "/players/mitchell_starc.png"
     },
     {
       "rank": 7,
@@ -695,7 +731,8 @@
       "score": 82.8,
       "role": "Death Seam",
       "age": 36,
-      "category": "Dual-Role Death"
+      "category": "Dual-Role Death",
+      "image_url": "/players/andre_russell_bowl.png"
     },
     {
       "rank": 8,
@@ -703,7 +740,8 @@
       "score": 81.6,
       "role": "Finger Spin",
       "age": 33,
-      "category": "Prime Domestic Utility"
+      "category": "Prime Domestic Utility",
+      "image_url": "/players/krunal_pandya.png"
     },
     {
       "rank": 9,
@@ -711,7 +749,8 @@
       "score": 80.2,
       "role": "Fast-Medium",
       "age": 30,
-      "category": "Prime Overseas"
+      "category": "Prime Overseas",
+      "image_url": "/players/jacob_duffy.png"
     },
     {
       "rank": 10,
@@ -719,7 +758,8 @@
       "score": 79.1,
       "role": "Left-Arm Medium",
       "age": 27,
-      "category": "Emerging Prospect"
+      "category": "Emerging Prospect",
+      "image_url": "/players/salman_mirza.png"
     }
   ],
   "rr_auction_shortlist": [

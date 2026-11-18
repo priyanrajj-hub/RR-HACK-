@@ -113,7 +113,16 @@ export default function BowlersPage() {
                   className="hover:bg-slate-800/40 cursor-pointer transition-colors"
                 >
                   <td className="p-3 font-black text-rr-gold">#{bw.rank}</td>
-                  <td className="p-3 font-bold text-white">{bw.player_name}</td>
+                  <td className="p-3 font-bold text-white">
+                    <div className="flex items-center gap-2.5">
+                      <img
+                        src={bw.image_url || "/players/umran_malik.png"}
+                        alt={bw.player_name}
+                        className="w-7 h-7 rounded-full object-cover border border-blue-500 shrink-0 shadow-sm shadow-blue-500/20"
+                      />
+                      <span>{bw.player_name}</span>
+                    </div>
+                  </td>
                   <td className="p-3 font-black text-rr-blue-light">{bw.reliability_score.toFixed(2)}</td>
                   <td className="p-3 font-mono text-slate-400">{bw.ci_90[0].toFixed(1)}–{bw.ci_90[1].toFixed(1)}</td>
                   <td className="p-3 font-bold">{bw.hp_econ.toFixed(2)}</td>
