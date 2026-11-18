@@ -56,7 +56,7 @@ export default function Navbar() {
         </Link>
 
         {/* Links */}
-        <div className="hidden xl:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-1 overflow-x-auto scrollbar-none py-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
@@ -64,7 +64,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+                className={`px-2 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap ${
                   isActive
                     ? "bg-rr-card text-rr-pink border border-rr-pink/30 shadow-sm"
                     : "text-slate-400 hover:text-white hover:bg-slate-800/50"

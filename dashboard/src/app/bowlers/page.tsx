@@ -127,7 +127,13 @@ export default function BowlersPage() {
                   <td className="p-3 font-mono text-rr-gold">{bw.consistency_win_rate.toFixed(0)}%</td>
                   <td className="p-3 text-slate-400">{bw.hp_balls}</td>
                   <td className="p-3 text-right">
-                    <button className="px-2 py-0.5 rounded bg-slate-800 hover:bg-rr-blue-light text-[11px] font-bold text-slate-300 hover:text-white transition-colors">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedPlayer(bw);
+                      }}
+                      className="px-2.5 py-1 rounded-md bg-rr-blue/20 hover:bg-rr-blue-light text-[11px] font-bold text-rr-blue-light hover:text-white border border-rr-blue/30 hover:border-rr-blue-light transition-all shadow-sm"
+                    >
                       Scout
                     </button>
                   </td>

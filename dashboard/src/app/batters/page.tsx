@@ -125,7 +125,13 @@ export default function BattersPage() {
                   <td className="p-3 font-mono text-rr-gold">{b.consistency_win_rate.toFixed(0)}%</td>
                   <td className="p-3 text-slate-400">{b.hp_balls}</td>
                   <td className="p-3 text-right">
-                    <button className="px-2 py-0.5 rounded bg-slate-800 hover:bg-rr-pink text-[11px] font-bold text-slate-300 hover:text-white transition-colors">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedPlayer(b);
+                      }}
+                      className="px-2.5 py-1 rounded-md bg-rr-pink/20 hover:bg-rr-pink text-[11px] font-bold text-rr-pink hover:text-white border border-rr-pink/30 hover:border-rr-pink transition-all shadow-sm"
+                    >
                       Scout
                     </button>
                   </td>
