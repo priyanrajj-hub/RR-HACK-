@@ -1,0 +1,32 @@
+{
+  "threshold": 0.44420000000000004,
+  "percentile": 72,
+  "metrics_comparison": [
+    {
+      "is_high_pressure": false,
+      "total_balls": 144707,
+      "avg_runs_per_ball": 1.3142073292929852,
+      "wicket_pct": 4.578216672310254,
+      "dot_pct": 39.841196348483486,
+      "boundary_pct": 17.699903943831327,
+      "label": "Ordinary / Low Pressure"
+    },
+    {
+      "is_high_pressure": true,
+      "total_balls": 56292,
+      "avg_runs_per_ball": 1.410058267604633,
+      "wicket_pct": 7.560576991401975,
+      "dot_pct": 38.60939387479571,
+      "boundary_pct": 18.61898671214382,
+      "label": "High Pressure (Top 28%)"
+    }
+  ],
+  "distribution_summary": {
+    "mean": 0.3777034103479266,
+    "std": 0.1595398943357906,
+    "p25": 0.27140000000000003,
+    "p50": 0.3165756302521009,
+    "p75": 0.47800000000000004,
+    "p90": 0.6197262038073913
+  }
+}

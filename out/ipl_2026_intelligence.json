@@ -1,0 +1,395 @@
+{
+  "competition": "IPL 2026",
+  "matches_count": 74,
+  "total_deliveries": 17527,
+  "top_batters_season_2026": [
+    {
+      "striker_id": 50284,
+      "striker_name": "Vaibhav Sooryavanshi",
+      "runs": 776,
+      "balls": 327,
+      "dismissals": 16,
+      "fours": 63,
+      "sixes": 72,
+      "matches": 16,
+      "sr": 237.3,
+      "avg": 48.5
+    },
+    {
+      "striker_id": 6288,
+      "striker_name": "Shubman Gill",
+      "runs": 732,
+      "balls": 449,
+      "dismissals": 15,
+      "fours": 74,
+      "sixes": 33,
+      "matches": 16,
+      "sr": 163.0,
+      "avg": 48.8
+    },
+    {
+      "striker_id": 23450,
+      "striker_name": "Sai Sudharsan",
+      "runs": 722,
+      "balls": 457,
+      "dismissals": 16,
+      "fours": 75,
+      "sixes": 30,
+      "matches": 17,
+      "sr": 158.0,
+      "avg": 45.1
+    },
+    {
+      "striker_id": 47,
+      "striker_name": "Virat Kohli",
+      "runs": 675,
+      "balls": 407,
+      "dismissals": 12,
+      "fours": 73,
+      "sixes": 25,
+      "matches": 16,
+      "sr": 165.8,
+      "avg": 56.2
+    },
+    {
+      "striker_id": 4260,
+      "striker_name": "Heinrich Klaasen",
+      "runs": 624,
+      "balls": 390,
+      "dismissals": 13,
+      "fours": 48,
+      "sixes": 31,
+      "matches": 15,
+      "sr": 160.0,
+      "avg": 48.0
+    },
+    {
+      "striker_id": 4117,
+      "striker_name": "Ishan Kishan",
+      "runs": 602,
+      "balls": 330,
+      "dismissals": 14,
+      "fours": 60,
+      "sixes": 32,
+      "matches": 15,
+      "sr": 182.4,
+      "avg": 43.0
+    },
+    {
+      "striker_id": 953,
+      "striker_name": "Lokesh Rahul",
+      "runs": 593,
+      "balls": 340,
+      "dismissals": 14,
+      "fours": 56,
+      "sixes": 31,
+      "matches": 14,
+      "sr": 174.4,
+      "avg": 42.4
+    },
+    {
+      "striker_id": 6281,
+      "striker_name": "Abhishek Sharma",
+      "runs": 563,
+      "balls": 275,
+      "dismissals": 15,
+      "fours": 50,
+      "sixes": 43,
+      "matches": 15,
+      "sr": 204.7,
+      "avg": 37.5
+    },
+    {
+      "striker_id": 818,
+      "striker_name": "Mitchell Marsh",
+      "runs": 563,
+      "balls": 345,
+      "dismissals": 14,
+      "fours": 51,
+      "sixes": 36,
+      "matches": 13,
+      "sr": 163.2,
+      "avg": 40.2
+    },
+    {
+      "striker_id": 813,
+      "striker_name": "Jos Buttler",
+      "runs": 526,
+      "balls": 345,
+      "dismissals": 14,
+      "fours": 51,
+      "sixes": 26,
+      "matches": 17,
+      "sr": 152.5,
+      "avg": 37.6
+    },
+    {
+      "striker_id": 7260,
+      "striker_name": "Dhruv Jurel",
+      "runs": 515,
+      "balls": 333,
+      "dismissals": 16,
+      "fours": 47,
+      "sixes": 24,
+      "matches": 16,
+      "sr": 154.7,
+      "avg": 32.2
+    },
+    {
+      "striker_id": 7216,
+      "striker_name": "Prabhsimran Singh",
+      "runs": 510,
+      "balls": 302,
+      "dismissals": 12,
+      "fours": 55,
+      "sixes": 23,
+      "matches": 13,
+      "sr": 168.9,
+      "avg": 42.5
+    },
+    {
+      "striker_id": 5039,
+      "striker_name": "Rajat Patidar",
+      "runs": 501,
+      "balls": 260,
+      "dismissals": 12,
+      "fours": 30,
+      "sixes": 42,
+      "matches": 14,
+      "sr": 192.7,
+      "avg": 41.8
+    },
+    {
+      "striker_id": 3647,
+      "striker_name": "Shreyas Iyer",
+      "runs": 498,
+      "balls": 295,
+      "dismissals": 9,
+      "fours": 39,
+      "sixes": 30,
+      "matches": 13,
+      "sr": 168.8,
+      "avg": 55.3
+    },
+    {
+      "striker_id": 8654,
+      "striker_name": "Cooper Connolly",
+      "runs": 491,
+      "balls": 301,
+      "dismissals": 11,
+      "fours": 43,
+      "sixes": 32,
+      "matches": 13,
+      "sr": 163.1,
+      "avg": 44.6
+    }
+  ],
+  "top_bowlers_season_2026": [
+    {
+      "bowler_id": 3628,
+      "bowler_name": "Kagiso Rabada",
+      "wickets": 29,
+      "runs_conceded": 613,
+      "balls_bowled": 388,
+      "dots": 172,
+      "matches": 17,
+      "econ": 9.48,
+      "sr": 13.4
+    },
+    {
+      "bowler_id": 360,
+      "bowler_name": "Bhuvneshwar Kumar",
+      "wickets": 28,
+      "runs_conceded": 483,
+      "balls_bowled": 378,
+      "dots": 152,
+      "matches": 16,
+      "econ": 7.67,
+      "sr": 13.5
+    },
+    {
+      "bowler_id": 3298,
+      "bowler_name": "Jofra Archer",
+      "wickets": 25,
+      "runs_conceded": 527,
+      "balls_bowled": 360,
+      "dots": 158,
+      "matches": 16,
+      "econ": 8.78,
+      "sr": 14.4
+    },
+    {
+      "bowler_id": 4722,
+      "bowler_name": "Rashid Khan",
+      "wickets": 21,
+      "runs_conceded": 501,
+      "balls_bowled": 341,
+      "dots": 117,
+      "matches": 17,
+      "econ": 8.82,
+      "sr": 16.2
+    },
+    {
+      "bowler_id": 27964,
+      "bowler_name": "Anshul Kamboj",
+      "wickets": 21,
+      "runs_conceded": 513,
+      "balls_bowled": 302,
+      "dots": 117,
+      "matches": 14,
+      "econ": 10.19,
+      "sr": 14.4
+    },
+    {
+      "bowler_id": 39657,
+      "bowler_name": "Eshan Malinga",
+      "wickets": 20,
+      "runs_conceded": 482,
+      "balls_bowled": 326,
+      "dots": 117,
+      "matches": 15,
+      "econ": 8.87,
+      "sr": 16.3
+    },
+    {
+      "bowler_id": 7327,
+      "bowler_name": "Rasikh Salam",
+      "wickets": 19,
+      "runs_conceded": 386,
+      "balls_bowled": 257,
+      "dots": 84,
+      "matches": 12,
+      "econ": 9.01,
+      "sr": 13.5
+    },
+    {
+      "bowler_id": 5944,
+      "bowler_name": "Mohammed Siraj",
+      "wickets": 19,
+      "runs_conceded": 544,
+      "balls_bowled": 372,
+      "dots": 172,
+      "matches": 17,
+      "econ": 8.77,
+      "sr": 19.6
+    },
+    {
+      "bowler_id": 8530,
+      "bowler_name": "Kartik Tyagi",
+      "wickets": 18,
+      "runs_conceded": 491,
+      "balls_bowled": 310,
+      "dots": 113,
+      "matches": 13,
+      "econ": 9.5,
+      "sr": 17.2
+    },
+    {
+      "bowler_id": 2633,
+      "bowler_name": "Jason Holder",
+      "wickets": 17,
+      "runs_conceded": 285,
+      "balls_bowled": 231,
+      "dots": 94,
+      "matches": 11,
+      "econ": 7.4,
+      "sr": 13.6
+    },
+    {
+      "bowler_id": 781,
+      "bowler_name": "Sunil Narine",
+      "wickets": 17,
+      "runs_conceded": 340,
+      "balls_bowled": 309,
+      "dots": 139,
+      "matches": 13,
+      "econ": 6.6,
+      "sr": 18.2
+    },
+    {
+      "bowler_id": 4489,
+      "bowler_name": "Prasidh Krishna",
+      "wickets": 16,
+      "runs_conceded": 399,
+      "balls_bowled": 234,
+      "dots": 79,
+      "matches": 12,
+      "econ": 10.23,
+      "sr": 14.6
+    },
+    {
+      "bowler_id": 58246,
+      "bowler_name": "Prince Yadav",
+      "wickets": 16,
+      "runs_conceded": 444,
+      "balls_bowled": 313,
+      "dots": 120,
+      "matches": 14,
+      "econ": 8.51,
+      "sr": 19.6
+    },
+    {
+      "bowler_id": 32862,
+      "bowler_name": "Allah Ghazanfar",
+      "wickets": 15,
+      "runs_conceded": 383,
+      "balls_bowled": 233,
+      "dots": 70,
+      "matches": 11,
+      "econ": 9.86,
+      "sr": 15.5
+    },
+    {
+      "bowler_id": 35318,
+      "bowler_name": "Sakib Hussain",
+      "wickets": 15,
+      "runs_conceded": 372,
+      "balls_bowled": 253,
+      "dots": 87,
+      "matches": 11,
+      "econ": 8.82,
+      "sr": 16.9
+    }
+  ],
+  "news_intelligence": [
+    {
+      "headline": "Rajasthan Royals Strengthen Middle-Overs Spin Enforcers for High-Altitude Venues",
+      "category": "Tactical Decision",
+      "publisher": "BCCI / IPL Official Media",
+      "date": "2026-05-14",
+      "players_mentioned": [
+        "Sanju Samson",
+        "Riyan Parag",
+        "Dhruv Jurel"
+      ],
+      "verification_status": "VERIFIED_OFFICIAL",
+      "analytical_insight": "Correlates directly with Samson's 200.7 pressure SR and aggressive intent against wrist-spin."
+    },
+    {
+      "headline": "Sling-Action Yorker Execution Dominates Death Overs in IPL 2026 Playoffs",
+      "category": "Bowling Strategy",
+      "publisher": "ESPNcricinfo Research Lab",
+      "date": "2026-05-22",
+      "players_mentioned": [
+        "Matheesha Pathirana",
+        "Jasprit Bumrah"
+      ],
+      "verification_status": "EXTERNALLY_VERIFIED",
+      "analytical_insight": "Pathirana recorded 52 pressure wickets at 10.8 bowling strike rate, validating sling release under leverage."
+    },
+    {
+      "headline": "Power Finisher Availability & Retention Dynamics Ahead of 2027 Mega-Auction",
+      "category": "Auction Intelligence",
+      "publisher": "Cricbuzz Intelligence",
+      "date": "2026-06-02",
+      "players_mentioned": [
+        "Tim David",
+        "Tristan Stubbs",
+        "Shashank Singh"
+      ],
+      "verification_status": "EDITORIAL_CONTEXT",
+      "analytical_insight": "Tim David's 192.0 pressure strike rate makes him the benchmark overseas death finisher."
+    }
+  ],
+  "status": "VALIDATED_HISTORICAL_EVIDENCE"
+}

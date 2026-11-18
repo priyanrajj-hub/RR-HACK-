@@ -1,0 +1,82 @@
+{
+  "win_probability_model": {
+    "algorithm": "HistGradientBoostingClassifier",
+    "features": [
+      "balls_left",
+      "runs_needed",
+      "rrr",
+      "crr",
+      "wickets_in_hand",
+      "overid"
+    ],
+    "training_samples": 71491,
+    "validation_samples": 23743,
+    "brier_score": 0.1324,
+    "log_loss": 0.4028,
+    "calibration_curve": [
+      {
+        "predicted_prob": 0.028,
+        "empirical_prob": 0.028
+      },
+      {
+        "predicted_prob": 0.145,
+        "empirical_prob": 0.134
+      },
+      {
+        "predicted_prob": 0.251,
+        "empirical_prob": 0.208
+      },
+      {
+        "predicted_prob": 0.352,
+        "empirical_prob": 0.267
+      },
+      {
+        "predicted_prob": 0.452,
+        "empirical_prob": 0.371
+      },
+      {
+        "predicted_prob": 0.548,
+        "empirical_prob": 0.488
+      },
+      {
+        "predicted_prob": 0.653,
+        "empirical_prob": 0.618
+      },
+      {
+        "predicted_prob": 0.75,
+        "empirical_prob": 0.689
+      },
+      {
+        "predicted_prob": 0.848,
+        "empirical_prob": 0.775
+      },
+      {
+        "predicted_prob": 0.978,
+        "empirical_prob": 0.972
+      }
+    ],
+    "status": "VALIDATED_PRODUCTION"
+  },
+  "expected_runs_model": {
+    "algorithm": "HistGradientBoostingRegressor",
+    "features": [
+      "overid",
+      "phase_code",
+      "is_spin",
+      "innings"
+    ],
+    "total_deliveries_trained": 200999,
+    "mae": 1.2962
+  },
+  "expected_wickets_model": {
+    "algorithm": "HistGradientBoostingClassifier",
+    "features": [
+      "overid",
+      "phase_code",
+      "is_spin",
+      "innings"
+    ],
+    "total_deliveries_trained": 200999,
+    "log_loss": 0.2073
+  }
+}

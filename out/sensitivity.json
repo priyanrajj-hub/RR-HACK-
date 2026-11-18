@@ -1,0 +1,22 @@
+[
+  {
+    "percentile": 68,
+    "threshold": 0.427,
+    "top_10_overlap_pct": 50.0
+  },
+  {
+    "percentile": 72,
+    "threshold": 0.444,
+    "top_10_overlap_pct": 50.0
+  },
+  {
+    "percentile": 76,
+    "threshold": 0.48,
+    "top_10_overlap_pct": 50.0
+  },
+  {
+    "percentile": 80,
+    "threshold": 0.497,
+    "top_10_overlap_pct": 60.0
+  }
+]

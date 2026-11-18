@@ -1,0 +1,75 @@
+{
+  "scenario": {
+    "budget_cr": 45.0,
+    "squad_slots": 4,
+    "max_overseas": 3,
+    "status": "OPTIMAL_SOLUTION_FOUND"
+  },
+  "optimal_squad": [
+    {
+      "id": 6396,
+      "name": "Tim David",
+      "role": "Finisher",
+      "is_overseas": true,
+      "score": 87.33,
+      "est_cost": 11.5,
+      "fit_type": "Death Finisher"
+    },
+    {
+      "id": 36472,
+      "name": "Shashank Singh",
+      "role": "Finisher",
+      "is_overseas": false,
+      "score": 83.9,
+      "est_cost": 7.5,
+      "fit_type": "Clutch Domestic Batter"
+    },
+    {
+      "id": 37052,
+      "name": "Naman Dhir",
+      "role": "Finisher",
+      "is_overseas": false,
+      "score": 80.72,
+      "est_cost": 5.5,
+      "fit_type": "Emerging Power Finisher"
+    },
+    {
+      "id": 2933,
+      "name": "Jasprit Bumrah",
+      "role": "Pace Death",
+      "is_overseas": false,
+      "score": 77.13,
+      "est_cost": 18.0,
+      "fit_type": "Global Death Benchmark"
+    }
+  ],
+  "metrics": {
+    "total_estimated_spend_cr": 42.5,
+    "remaining_purse_cr": 2.5,
+    "aggregate_pressure_score": 329.08,
+    "mean_pressure_score": 82.27,
+    "overseas_players_count": 1,
+    "monte_carlo_budget_feasibility": 56.0,
+    "simulated_spend_p90_cr": 48.0
+  },
+  "strategic_recommendations": [
+    {
+      "tier": "CRITICAL_TARGET",
+      "player": "Matheesha Pathirana",
+      "reason": "DATA-SUPPORTED FINDING: 52 pressure wickets at 10.8 bowling SR. Solves RR's death-overs pace deficit.",
+      "type": "STRATEGIC RECOMMENDATION"
+    },
+    {
+      "tier": "POWER_FINISHER",
+      "player": "Tim David",
+      "reason": "DATA-SUPPORTED FINDING: #1 Pressure Batter globally (192.0 SR, 41.0 Avg). Unrivaled late-innings acceleration.",
+      "type": "STRATEGIC RECOMMENDATION"
+    },
+    {
+      "tier": "VALUE_SPIN",
+      "player": "Sunil Narine",
+      "reason": "DATA-SUPPORTED FINDING: Sub-5.5 economy under pressure across both powerplay and death.",
+      "type": "STRATEGIC RECOMMENDATION"
+    }
+  ]
+}

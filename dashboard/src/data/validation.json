@@ -1,0 +1,8 @@
+{
+  "batters_split_half_r": 0.379,
+  "batters_spearman_brown": 0.55,
+  "bowlers_split_half_r": 0.152,
+  "bowlers_spearman_brown": 0.263,
+  "bootstrap_iterations": 500,
+  "ci_level": 90
+}

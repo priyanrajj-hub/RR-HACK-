@@ -1,0 +1,30 @@
+{
+  "ball_by_ball": {
+    "match_id": "Unique identifier linking to matches.csv",
+    "innings": "Innings number (1: First innings, 2: Chase, 3-4: Super Overs)",
+    "overid": "Over number 1-indexed (1 to 20)",
+    "over_ball_num": "Ball number within current over (1 to 10 including extras)",
+    "innings_ball_num": "Sequential delivery count in innings",
+    "striker_id": "Unique player ID of the batter facing",
+    "striker_name": "Full legal name of the batter",
+    "bowler_id": "Unique player ID of the bowler delivering",
+    "bowler_name": "Full legal name of the bowler",
+    "runs": "Runs scored strictly off the bat (0, 1, 2, 3, 4, 6)",
+    "is_wicket": "Boolean flag indicating whether a dismissal occurred",
+    "dismissal_type": "Specific cricket dismissal method (Caught, Bowled, LBW, Stump, RunOut)",
+    "extras_type": "Type of extra on delivery ('wide', 'Overstep', 'legbyes', 'byes', 'other')",
+    "extras1_runs": "Primary extra runs awarded to batting team",
+    "extras_2_runs": "Secondary extra runs (penalty or overthrows)",
+    "pace_or_spin": "Bowler categorization ('pace' or 'spin')",
+    "delivery_style": "Bowling action and release classification",
+    "stroke": "Batting stroke biomechanics classification"
+  },
+  "matches": {
+    "match_id": "Primary key for each match fixture",
+    "comp_id": "Competition identifier linking to competitions.csv",
+    "stage": "Tournament stage ('League', 'Final', 'Semi Final', 'Qualifier 1', etc.)",
+    "knock_out": "Binary indicator (1 for knockout/elimination, 0 for round robin)",
+    "revised_target": "DLS revised second-innings chase target",
+    "second_inn_revised_overs": "Revised total legal deliveries for innings 2"
+  }
+}

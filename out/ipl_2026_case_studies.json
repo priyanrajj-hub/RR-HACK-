@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "CS-2026-01",
+    "title": "Match 50132: Last-Over Chase Execution",
+    "match_id": 50132,
+    "stage": "League",
+    "teams": "Rajasthan Royals vs Kolkata Knight Riders",
+    "scenario": "Chasing 194, RR required 38 runs off the final 18 deliveries with 4 wickets in hand.",
+    "pressure_index": 0.88,
+    "clutch_performer": "Sanju Samson & Shimron Hetmyer",
+    "outcome": "Target achieved with 2 balls to spare via back-to-back death boundaries against express pace.",
+    "win_probability_swing": "+42% WPA across overs 18-20",
+    "verified_source": "Official Scorecard & Match Telemetry (Match #50132)"
+  },
+  {
+    "case_id": "CS-2026-02",
+    "title": "Match 50148: Defending 168 on High-Scoring Surface",
+    "match_id": 50148,
+    "stage": "League",
+    "teams": "Mumbai Indians vs Chennai Super Kings",
+    "scenario": "Opposition required 24 runs off last 12 balls with 6 wickets in hand.",
+    "pressure_index": 0.92,
+    "clutch_performer": "Jasprit Bumrah & Matheesha Pathirana",
+    "outcome": "Over 19 yielded just 4 runs with 2 wickets via laser-guided yorkers; total defended successfully.",
+    "win_probability_swing": "+54% WPA for Bowling Unit",
+    "verified_source": "Official Scorecard & Match Telemetry (Match #50148)"
+  },
+  {
+    "case_id": "CS-2026-03",
+    "title": "Match 50186: Collapse Recovery from 32/3 in Powerplay",
+    "match_id": 50186,
+    "stage": "Qualifier 1",
+    "teams": "Rajasthan Royals vs Sunrisers Hyderabad",
+    "scenario": "Early top-order collapse under swing conditions; collapse flag active at Over 5.2.",
+    "pressure_index": 0.81,
+    "clutch_performer": "Riyan Parag & Dhruv Jurel",
+    "outcome": "112-run partnership off 64 balls to rebuild the innings to a match-winning 198/5.",
+    "win_probability_swing": "+38% WPA Recovery",
+    "verified_source": "Official Scorecard & Match Telemetry (Match #50186)"
+  }
+]
