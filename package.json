@@ -1,0 +1,11 @@
+{
+  "name": "rr-hack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Royals Intelligence OS — Rajasthan Royals SupeRR Selector S2",
+  "scripts": {
+    "build": "npm --prefix dashboard run build",
+    "install": "npm --prefix dashboard install --legacy-peer-deps",
+    "start": "npm --prefix dashboard run start"
+  }
+}

@@ -22,6 +22,7 @@ export default function CricketGround3D({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [hoveredPlayer, setHoveredPlayer] = useState<(Batter | Bowler) | null>(null);
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number } | null>(null);
+  const [webglError, setWebglError] = useState(false);
 
   const top10 = players.slice(0, 10);
 
@@ -33,6 +34,19 @@ export default function CricketGround3D({
     let width = container.clientWidth || 800;
     let height = container.clientHeight || 560;
 
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({
+        canvas,
+        antialias: true,
+        powerPreference: "high-performance",
+      });
+    } catch (err) {
+      console.warn("WebGL initialization failed, falling back to 2D view:", err);
+      setWebglError(true);
+      return;
+    }
+
     // 1. Scene & Renderer
     const scene = new THREE.Scene();
     scene.background = new THREE.Color("#060B1C");
@@ -40,12 +54,6 @@ export default function CricketGround3D({
 
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100);
     camera.position.set(0, 12, 17);
-
-    const renderer = new THREE.WebGLRenderer({
-      canvas,
-      antialias: true,
-      powerPreference: "high-performance",
-    });
     renderer.setSize(width, height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.shadowMap.enabled = true;
@@ -337,7 +345,34 @@ export default function CricketGround3D({
       ref={containerRef}
       className="relative w-full h-[540px] md:h-[620px] rounded-2xl overflow-hidden bg-gradient-to-b from-[#050B1B] via-rr-navy to-[#030712] border border-rr-border shadow-2xl"
     >
-      <canvas ref={canvasRef} className="w-full h-full block" />
+      {webglError ? (
+        <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center space-y-4">
+          <div className="max-w-md p-6 rounded-2xl bg-slate-900/90 border border-rr-border space-y-3">
+            <h3 className="text-sm font-black uppercase text-white tracking-wider">
+              Tactical Overview • Top 10 {isBowler ? "Bowlers" : "Batters"}
+            </h3>
+            <p className="text-xs text-slate-400">
+              Hardware WebGL is not available on this display. Select any player below to inspect their tactical scouting profile.
+            </p>
+            <div className="grid grid-cols-2 gap-2 pt-2">
+              {top10.map((p) => (
+                <button
+                  key={p.player_id}
+                  onClick={() => onSelectPlayer(p)}
+                  className="px-3 py-2 rounded-lg bg-rr-navy hover:bg-rr-pink/20 border border-rr-border text-left transition-all group"
+                >
+                  <div className="text-[10px] text-rr-gold font-bold">#{p.rank} {p.player_name}</div>
+                  <div className="text-xs font-black text-white group-hover:text-rr-pink">
+                    Score: {p.reliability_score.toFixed(1)}
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <canvas ref={canvasRef} className="w-full h-full block" />
+      )}
 
       {/* Floating Ground Overlay Badge */}
       <div className="absolute top-4 left-4 z-10 pointer-events-none">

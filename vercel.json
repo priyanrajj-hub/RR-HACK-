@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm --prefix dashboard run build",
+  "outputDirectory": "dashboard/.next",
+  "installCommand": "npm --prefix dashboard install --legacy-peer-deps",
+  "framework": "nextjs"
+}
